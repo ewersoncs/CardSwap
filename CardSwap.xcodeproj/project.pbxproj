@@ -14,7 +14,7 @@
 		90C777BC2DFA82EA002B0A77 /* Exceptions for "CardSwap" folder in "CardSwap" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				iOS/Resources/Info.plist,
+				iOS/Utils/Info.plist,
 			);
 			target = 90C777912DFA7E1B002B0A77 /* CardSwap */;
 		};
@@ -264,11 +264,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CardSwap/iOS/Resources/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CardSwap/iOS/Utils/Preview Content\"";
 				DEVELOPMENT_TEAM = 4TP5KVW8P3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CardSwap/iOS/Resources/Info.plist;
+				INFOPLIST_FILE = CardSwap/iOS/Utils/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Cartões";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,11 +297,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CardSwap/iOS/Resources/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CardSwap/iOS/Utils/Preview Content\"";
 				DEVELOPMENT_TEAM = 4TP5KVW8P3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CardSwap/iOS/Resources/Info.plist;
+				INFOPLIST_FILE = CardSwap/iOS/Utils/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Cartões";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
