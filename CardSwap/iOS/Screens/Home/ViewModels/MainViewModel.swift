@@ -14,8 +14,8 @@ class MainViewModel {
     // Cards Data
     var cards: [Card] = [
         Card(cardNumber: "9090 9292 9212 2827 ", cardHolderName: "Fulano de Tal Silva", providerType: .masterCardLimited, cardDesign: .black),
-        Card(cardNumber: "0120 0453 0000 0943 ", cardHolderName: "Beltrano de Tal Branco", providerType: .masterCardLimited, cardDesign: .black),
-        Card(cardNumber: "7832 6543 1908 9087 ", cardHolderName: "Ciclano de Tal Alegre", providerType: .masterCardLimited, cardDesign: .black)
+        Card(cardNumber: "0120 0453 0000 0943 ", cardHolderName: "Beltrano de Tal Branco", providerType: .masterCardLimited, cardDesign: .orange),
+        Card(cardNumber: "7832 6543 1908 9087 ", cardHolderName: "Ciclano de Tal Alegre", providerType: .masterCardLimited, cardDesign: .pink)
     ]
     
     let animationDuration: TimeInterval = 0.5
