@@ -18,8 +18,25 @@ struct CardView: View {
                 HStack{
                     VStack(alignment: .leading, spacing: 12) {
                         Text(card.cardHolderName)
+                            .font(ClashGrotestk.semibold.font(size: 18))
+                            .textCase(.uppercase)
+                            .opacity(0.9)
+                            .tracking(1.1)
+                        
+                        Text("**** **** **** \(card.cardNumber.suffix(5))")
+                            .font(ClashGrotestk.medium.font(size: 17))
+                            .offset(x: 2)
                     }
+                    
+                    Spacer()
+                    
+                    Image(card.providerType.rawValue)
+                        .resizable()
+                        .frame(width: 64, height: 64)
                 }
+                .foregroundColor(.white)
+                .padding(.bottom, 24)
+                .padding(.horizontal, 24)
             }
     }
     
